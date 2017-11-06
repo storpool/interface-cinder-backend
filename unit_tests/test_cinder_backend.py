@@ -6,7 +6,7 @@ A set of unit tests for the cinder-backend interface.
 
 import os
 import sys
-import testtools
+import unittest
 
 import mock
 
@@ -65,7 +65,7 @@ import provides as testee_provides
 CONFIGURE_STATE = 'storage-backend.configure'
 
 
-class TestCinderBackend(testtools.TestCase):
+class TestCinderBackend(unittest.TestCase):
     """
     Test the trivial notification issued by the cinder-backend interface.
     """
