@@ -1,3 +1,4 @@
 name: cinder-backend
 description: Subordinate interface for cinder-storpool's relation to cinder
+ignore: ['unit_tests']
 exclude: ['unit_tests']
